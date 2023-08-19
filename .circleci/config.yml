@@ -70,6 +70,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Set Local Properties
+          command: echo "API_KEY=$API_KEY" >> local.properties
+      - run:
           command: |-
             #!/bin/bash
              CURRENT_JAVA_VER="$( java -version 2>&1 | head -1 | cut -d'"' -f2 | sed '/^1\./s///' | cut -d'.' -f1 )"
