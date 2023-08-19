@@ -65,7 +65,7 @@ jobs:
         type: integer
     executor:
       name: android/android-machine
-      resource-class: medium
+      resource-class: large
       tag: 2023.06.1
     steps:
       - checkout
