@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sport News</string>
+    <string name="favorite">Favorite</string>
+    <string name="about_developer">About Developer</string>
+    <string name="input_search_hint">Search News…</string>
+    <string name="nationality">Countries</string>
+    <string name="total_news_template">Total News : %1$d</string>
+    <string name="oops">Oops!</string>
+    <string name="empty_text">We cannot find the news right now, try another country or search another news</string>
+</resources>

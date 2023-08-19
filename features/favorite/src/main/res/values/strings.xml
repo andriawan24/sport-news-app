@@ -1,0 +1,5 @@
+<resources>
+    <string name="favorite_news">Favorite News</string>
+    <string name="oops">Oops!</string>
+    <string name="empty_text">You haven\'t added any favorite news, check out the news detail and click on the love button to save it here</string>
+</resources>
