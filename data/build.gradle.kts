@@ -35,7 +35,7 @@ android {
         }
 
         release {
-            isMinifyEnabled = true
+            isMinifyEnabled = false
             isJniDebuggable = false
             isRenderscriptDebuggable = false
 

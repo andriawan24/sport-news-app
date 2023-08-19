@@ -1,9 +1,13 @@
 package id.andriawan24.domain.models
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class CountryModel(
     val id: String,
     val name: String
-) {
+) : Parcelable {
     companion object {
         fun getCountries(): List<CountryModel> {
             return listOf(

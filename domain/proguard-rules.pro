@@ -11,6 +11,8 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+-keepclassmembers class id.andriawan24.domain.models.** { *; }
+-keep class id.andriawan24.domain.models.** { *; }
 
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
