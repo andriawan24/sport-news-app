@@ -28,7 +28,7 @@ android {
         }
 
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             isJniDebuggable = false
             isRenderscriptDebuggable = false
             proguardFiles(
